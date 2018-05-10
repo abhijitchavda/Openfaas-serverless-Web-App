@@ -45,3 +45,6 @@ OpenFaaS (Functions as a Service) is a framework for building serverless functio
 - Web Application Frontend
   - Node.js
   - Npm 
+
+### Architecture
+![](architecture)
