@@ -11,4 +11,10 @@ OpenFaaS (Functions as a Service) is a framework for building serverless functio
   Check out
   Notifications
   
-
+### Functionalities
+- User signup/signin
+- Product Catalog
+- Product Search based on categories
+- Shopping cart
+- Orders
+- Notifications
