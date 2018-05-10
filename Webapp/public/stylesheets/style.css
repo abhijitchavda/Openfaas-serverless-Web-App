@@ -1,0 +1,70 @@
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    //background-image: url('https://cdn.modernfarmer.com/wp-content/uploads/2014/11/shoppinghero.jpg');
+    background-attachment: fixed;
+}
+
+.thumbnail{
+	max-width: 300px;
+}
+
+.thumbnail img{
+	max-height: 150px;
+	max-width: 30px;
+}
+
+.thumbnail .description{
+	color: gray;
+}
+
+
+.price{
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.dropdown{
+	display: inline-block;
+}
+
+form{
+	background-color: white;
+	border-color: black;
+	width:450px;
+	height:550px;
+	display: inline-block;
+    text-align: center;
+}
+
+#search{
+	background-color: white;
+	border-color: black;
+	width:450px;
+	height:1px;
+	display: inline-block;
+    text-align: center;
+}
+#button_shopnow{
+	width:20%;
+	 margin:auto;
+  	display:block;
+}
+
+#button_login{
+	width:20%;
+	 margin:auto;
+  	display:block;
+  	float:left;
+}
+
+#empty_order_img img {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
