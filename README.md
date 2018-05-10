@@ -34,3 +34,14 @@ OpenFaaS (Functions as a Service) is a framework for building serverless functio
   - Bootstrap
   - RestFul Apis
   
+### Dependencies
+- Serverless Backend Functions
+  - OpenFaas (https://github.com/openfaas/faas)
+  - Faas-cli (curl -sL cli.openfaas.com | sudo sh)
+  - Docker
+  - Docker Swarm
+  - Twilio Credentials
+  - Python3
+- Web Application Frontend
+  - Node.js
+  - Npm 
