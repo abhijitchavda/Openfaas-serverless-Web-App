@@ -16,6 +16,9 @@ service-mongo-orders:
 	
 service-mongo-users:
 	docker service create --network=func_functions --name user-db-mongodb --publish 27020:27017 mongo mongod
+	
+service-grafana:
+	docker service create -d --name=func_grafana --publish=3000:3000 --network=func_functions stefanprodan/faas-grafana:4.6.3
 
 build-product-catalog:
 	faas-cli build -f pymongodb-function.yml
