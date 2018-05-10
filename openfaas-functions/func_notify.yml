@@ -11,6 +11,6 @@ functions:
       write_debug: true
       read_timeout: 10s
       write_timeout: 10s
-      account_sid: AC51c21a9dc6c3ac0c06ae3b946c26bab8
-      auth_token : 62ce630a6e6baebb56449c65ea791d7b
+      account_sid: AC51c*************************bab8
+      auth_token : 62ce*************************d7b
       mongo: user-db-mongodb
