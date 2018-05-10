@@ -1,0 +1,51 @@
+<h1>Orders</h1>
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+	{{#if orders}}
+
+		<div class="container">          
+			  <table class="table">
+			    <thead>
+			      <tr>
+			        <th>Date</th>
+			        <th>Total Price</th>
+			        <th>Status</th>
+			        <th>Products</th>
+			      </tr>
+			    </thead>
+			    <tbody>
+				{{# each orders}}
+					<tr>
+				        <td>{{this.date}}</td>
+				        <td>{{{this.total_price}}}</td>
+				        <td>Placed</td>
+				        <td>{{this.products}}</td>
+			      	</tr>
+				{{/each}}
+			    </tbody>
+			  </table>
+		</div>
+		<div align="center">
+		<h3>Psssttt...Let's shop some more!</h3>
+		</div>
+		<div align="center">
+		<img width = "10%" height="20%" src="https://static1.squarespace.com/static/565d4416e4b042bda9cb9eb4/t/570b4d0a8a65e2e68d8cf79f/1460358418528/" align="middle"/>
+		</div>
+		<br>
+		<div>
+		<a href="/productcatalog" type="button" class="btn btn-success">Shop More</a>
+		</div>
+
+
+	{{else}}
+
+		<h1>Looks like you haven't started shopping with us yet! Let get you started shall we..:)</h1>
+		<div id="empty_order_img">
+		<img src="https://static1.squarespace.com/static/565d4416e4b042bda9cb9eb4/t/570b4d0a8a65e2e68d8cf79f/1460358418528/" align="middle"/>
+		</div>
+		<br>
+		<a href="/productcatalog" type="button" class="btn btn-success">Shop Now</a>
+	{{/if}}
+
