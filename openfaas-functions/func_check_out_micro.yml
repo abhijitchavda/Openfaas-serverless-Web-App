@@ -1,0 +1,14 @@
+provider:
+  name: faas
+  gateway: http://127.0.0.1:8080
+
+functions:
+  func_check_out_micro:
+    lang: python3
+    handler: ./func_check_out_micro
+    image: prathmesh272/func_check_out_micro
+    environment:
+      write_debug: true
+      read_timeout: 10s
+      write_timeout: 10s
+      mongo: orders-db-mongodb
