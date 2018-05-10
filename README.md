@@ -6,10 +6,10 @@ OpenFaaS (Functions as a Service) is a framework for building serverless functio
 ### Requirements
 - Build a online shopping web application using OpenFaaS framework.
 - Implement the following functions as individual serverless functions:
-  Item listing
-  Search
-  Check out
-  Notifications
+  - Item listing
+  - Search
+  - Check out
+  - Notifications
   
 ### Functionalities
 - User signup/signin
@@ -18,3 +18,19 @@ OpenFaaS (Functions as a Service) is a framework for building serverless functio
 - Shopping cart
 - Orders
 - Notifications
+
+### Technologies
+- Severless Backend Functions
+  - OpenFaas
+  - Docker Swarm
+  - Prometheus
+  - Python
+  - Twilio
+  - MongoDB
+- Web Application Frontend
+  - Node.js
+  - Handlebars.js
+  - HTML/CSS
+  - Bootstrap
+  - RestFul Apis
+  
